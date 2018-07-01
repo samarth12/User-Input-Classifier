@@ -6,3 +6,15 @@ Classifies the user input into three respective classes:
 3. C - CHAT/SMALL TALK
 
 Features extracted using self designed N - grams. Used a Random Forrest Classifier to train the model. 
+
+FILES
+-----
+features.py - Extracts relavent features from the data
+features_csv.py - Converts and formats the extracted features into a csv format file
+MODEL_RUN.py - Trains the model on a Random ForrestClassifier. 
+
+RUN
+---
+Run the model using RUN_MODEL.py
+Change the user_input variable to test the model for custom inputs.
+
