@@ -16,5 +16,5 @@ MODEL_RUN.py - Trains the model on a Random ForrestClassifier.
 RUN
 ---
 Run the model using RUN_MODEL.py
-Change the user_input variable to test the model for custom inputs.
 
+Input the string while running the python file, eg, python RUN_MODEL.py 'Is earth flat?'
