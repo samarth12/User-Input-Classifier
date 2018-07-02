@@ -3,8 +3,9 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 import features
 #clf = RandomForestClassifier(n_jobs=2, n_estimators = 100)
+import sys
 
-user_input = "Is the earth flat"
+user_input = str(sys.argv)
 
 def classify_sentence(clf,user_input):
     keys = ["id",
