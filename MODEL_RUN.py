@@ -43,7 +43,7 @@ def classify_sentence(clf,user_input):
     print(predict[0].strip())
 
 def classify_model():
-    FNAME = '/Users/samarth/User Input Classifier/data/features_extracted.csv'
+    FNAME = 'data/features_extracted.csv'
     df = pd.read_csv(filepath_or_buffer = FNAME, )
     df.columns = df.columns[:].str.strip()
     df['class'] = df['class'].map(lambda x: x.strip())
