@@ -1,0 +1,279 @@
+SENTENCE,CLASS
+"Sorry, I don't know about the weather.",S
+That is a tricky question to answer.,C
+What does OCM stand for,Q
+MAX is a Mobile Application Accelerator,S
+Can a dog see in colour?,Q
+how are you,C
+"If you deploy a MySQL database in the Oracle cloud, how do you access it?",Q
+who is dominic Fakename,Q
+what's the weather like today?,C
+Can the OCM host non Oracle software stacks?,Q
+When will the Oracle 12.2 database be released,Q
+When will 12.3 be released?,Q
+Will that be on premise?,Q
+Who is Ed Bullen?,Q
+MAX is Mobile Application Accelerator,S
+The Product Manager for MAX is Grant Henry,S
+ChatbotCS is the Oracle Chatbot Cloud Service,S
+MAX is a codeless tool for business analysts,S
+What is JSON?,Q
+What is the OCM?,Q
+ABCS is Application Builder Cloud Service,S
+"The OCM is the Oracle Cloud Machine, an on-premisis cloud device",Q
+What is OCCS,Q
+OCCS is the Oracle Container Cloud Service based off Docker,S
+What's an OCM?,Q
+"OCM is Oracle Cloud Machine, an on-premise cloud device",S
+Who is Dom Fakename,Q
+Where can I find more information about the OCM?,Q
+What is an OCM?,Q
+Should I use a QR code,Q
+I do not recommened using a QR code,S
+NodeJS is good for web applications,S
+JSON is JavaScript Object Notification,S
+Hey Siri,C
+Siri is my friend,C
+hi,C
+hi there,C
+Please can you tell me what MAX is,Q
+I am fine,C
+how are you?,C
+Very good thank you.,C
+great,C
+How are you?,C
+What is a database?,Q
+That's good to hear,C
+I am very well thank you,C
+A database is used for storing and retreiving data.,S
+OK,C
+Who is the product manager for the Oracle database,Q
+Dominic Fakename is one of the senior product managers for the Oracle database.,S
+When will Oracle 12.2 be released on-premises?,Q
+Oracle 12.2 will be released for on-premises users on 15 March 2017,S
+You need an SSH key to access remote resources in the Oracle cloud,S
+When will Oracle 12.2 be released?,Q
+who is Dominic Fakename?,Q
+when will Oracle 12.2 be released?,Q
+what is a database?,Q
+please can you tell me who Dom Fakename is?,Q
+please can you tell me who Dominic Fakename is?,Q
+hello,C
+who am i?,Q
+That is not what I asked,C
+I am fine thank you,C
+what's ABCS?,Q
+"Application Builder Cloud Service, designed for citizen developers",S
+no idea,C
+are you a chatbot?,Q
+what is a chatbot?,Q
+what is MCS?,Q
+Mobile Cloud Service,S
+What is MAX?,Q
+Mobile Application Accelerator,S
+Who's the PM for ABCS?,Q
+Shay MadeUpName is the PM for ABCS,S
+Is Azure any good?,Q
+Martin Dummyname can help with MCS,S
+Shay MadeUpName,S
+What's ACCS?,Q
+ACCS is the Application Container Cloud Service,S
+Bob Smith is the PM for ACCS,S
+A product manager for Oracle database,S
+Where do you live?,Q
+Hello,C
+What's new?,C
+Thanks for telling me that,C
+Dom Fakename is one of the product managers for the Oracle database.,S
+Stop asking me questions!,C
+Oracle 12.2 will be released on the 15th of March.,S
+The cat is sleeping,S
+is the dog happy,Q
+The cow is in the field,S
+What is MCS?,Q
+Where is the cow,Q
+When will Oracle 12 be released,Q
+How's it going?,C
+"Hey!, How's it going?",C
+Oracle 12c database will be released in March 2017,S
+When will Arsenal ever win a match?,Q
+Arsenal are a football team in North London,S
+Python is an interpreted programming language with a very clean and distinctive syntAx,S
+�The millionaire intended to purchase the masterpiece regardless of cost.,S
+No one had a flashlight.,S
+She knows. She always knows.,C
+I'm not sure whether I'm doing this right.,C
+His pride wouldn't allow him to do such a mean thing.,S
+Tom happens to be very good at French.,C
+I'm expecting a call.,C
+Rome abounds with relics.,S
+Let's hope it doesn't rain.,C
+I know it.,C
+You're different with Tom.,C
+Everybody is great.,S
+It's safe now.,S
+The robot does whatever its master tells it to do.,S
+Mary is a single mom.,S
+I went to Tom's house after school.,C
+My kids used to go there.,C
+Tom needs to do that again.,C
+How lucky I am!,C
+We'll lose time.,S
+If I do not get the item this week, I will make a complaint to PayPal.",C
+We're prejudiced.,C
+Just a minute. I'm coming.,C
+Millions of people understand Interlingua within a single glance.,S
+She looked directly into his eyes.,S
+I borrowed Tom's car.,C
+The score is 9 to 2 in favor of our school.,S
+I met my friend.,S
+I know Tom didn't intentionally hurt Mary.,S
+"Tom is aggressive, isn't he?",Q
+I didn't get much.,S
+I really regret what I did.,S
+Could you wrap them up separately?,Q
+She felt insecure about her children's future.,S
+I'm not going to tell him that.,C
+Tom shut the door behind him.,S
+It's the best burger in town.,S
+They were angered at his decision.,S
+He attempted to climb the fence to no avail. ,S
+Quit pouting. Smile and cheer up.,S
+Tom repeated what he had just said.,S
+Are you gonna help me or what?,Q
+I owe him a debt of gratitude for what he did.,S
+What is the procedure for getting a visa?,Q
+What was his name again?,Q
+Who cares what happens to Tom?,Q
+Tom told me what you're up to.,S
+Just one part of what he said got picked up by the media and took on a life of its own.,S
+"I may seem confident, but I get extremely nervous speaking in front of people. My hands tremble, I get all tongue-tied, and sometimes I don't even know what I'm saying myself.",S
+What is the square root of 2?,Q
+Tom can't decide what to do.,S
+Tom didn't believe what he heard.,S
+I thought this was what you always wanted.,S
+Did you tell Tom about what we did?,Q
+Life is half spent before we know what it is.,S
+"What's happened, has happened. It's history.",S
+"Today there isn't a cloud in the sky, what a blue sky!",S
+What's the student/teacher ratio at your school?,Q
+Take good care of what you eat and drink every day.,S
+"On Saturday I went to the zoo, and a monkey, who wouldn't stop screeching, pulled my hair.",S
+"Who can speak English better, Yoko or Yumi?",Q
+I just wanted some advice from someone who's already been to Boston.,S
+It remains to be seen who wins.,S
+I'm the guy who showed Tom how to make tomato sauce.,S
+With whom are you eating?,Q
+The picnic lasted the whole day.,S
+Tom didn't know who I was.,S
+I have a nephew who would be perfect for this job.,S
+Who did you kill?,Q
+I spent the whole evening reading the poetry of Kenji Miyazawa.,S
+We realize now that Tom knew exactly who Mary was.,S
+You're the only other person who knows where Tom is.,S
+I don't know anybody who likes these films.,S
+Whose drawing did you like?,Q
+Who is the prettiest of the girls?,Q
+Do you know who that person is?,Q
+The whole world loves Brazil.,S
+"A footballer, who had two cervical vertebrae broken in a tackle last week, may never walk again.",S
+He drank a whole bottle of milk.,S
+How will Tom react?,Q
+How long will the storm last?,Q
+How could you let her do this?,Q
+How many eggs were you able to get yesterday?,Q
+Tom showed me his collection of stamps.,S
+"The words are on the tip of my tongue, but I don't quite know how to put what I want to say.",S
+"He was fair and delicate as a prince, and beautiful as an angel; and how she loved this child!",S
+Tom is showing his wound.,S
+We may have a shower today.,S
+Here comes inaction and we don't know how to stop it.,S
+That's how I feel sometimes.,S
+This is how they catch an elephant alive.,S
+How did you know that?,Q
+"The lyrics seem innocent enough, but if you listen to them closely, you'll realize how subversive they really are.",S
+How many friends do you have?,Q
+He pointed out how important it is to observe the law.,S
+How do you like your new class?,S
+I don't know how I'm going to get Tom to help us.,S
+Do you not know how to hunt with anything but nets?,Q
+I forgot just how fun you are to hang out with.,S
+You remind me of myself.,C
+That reminds me of home.,S
+Don't forget to remind me of that.,C
+You remind me of myself when I was your age.,C
+Tom reminds me of you.,C
+Tom reminds me of someone I went to school with.,S
+You just reminded me of someone.,S
+This reminds me of you.,S
+This reminds me of someone.,S
+"Please remind me, should I forget.",C
+Who does this remind you of?,Q
+Austria's hilly landscapes reminded Mr. Bogart of The Sound of Music.,S
+Tom asked Mary to remind him to call John in the morning.,C
+I don't want to be reminded.,C
+Please remind me to go to the doctor's tomorrow.,C
+That reminds me of something I heard yesterday.,S
+I reminded him of his interview with the president.,C
+This melody reminds me of my school days.,S
+I don't need reminding.,C
+Tom is scheduled to be sentenced October 20th.,S
+Could you please re-schedule the meeting at your convenience?,C
+What's your schedule for tomorrow?,C
+What time is the plane scheduled to land?,C
+"I do not know the train schedules, could you find out for me?",C
+"You're on a tight schedule, aren't you?",Q
+He has a tight schedule.,S
+We're on schedule.,C
+"You're on a tight schedule, aren't you?",Q
+"Due to the typhoon, the train schedule was disturbed and all the trains were jam-packed.",S
+The plans are being made without regard to his schedule.,S
+Our server will be offline on October 20th for scheduled maintenance.,S
+Tom is scheduled to come to Boston next week.,C
+The schedule dictates that this work be done by the weekend.,S
+We're on a tight schedule today.,C
+My schedule's really full right now.,C
+I want a copy of Tom's daily schedule.,C
+He organized his overcrowded schedule and managed to come to see my performance.,S
+We're three hours behind schedule.,C
+"I do not know the train schedules, could you find out for me?",C
+My phone has a caller ID that lets me screen my calls.,S
+"It's easy to call us and we are in distress, but continue to pray after the crisis is more like ensuring that helps promising to adhere to the spirit of good achievements",S
+The principal called and said you weren't at school today.,S
+Daniela called me at home.,S
+Do you know that sushi restaurant called Tatoeba in Shibuya?,Q
+You can call me when you want.,S
+Are you calling me stupid?,Q
+"�As a star, the sun is a so-called yellow dwarf.",S
+I would like to call my embassy.,C
+I'll call you when I get there.,C
+I want you to call it off.,C
+I tried to call you from Boston.,C
+Have there been any calls for me?,C
+I had some calls to make.,C
+I made several calls to Mr Yamada's residence, but no one answered the calls.",S
+Let's call the dog Skipper.,S
+I'll call you when I get there.,S
+Perhaps we should call security.,C
+Call when you want to be picked up.,C
+Delirium of one person is called madness. Delirium of thousands of people is called religion.,S
+I'm looking for textbooks on feminist sociology.,S
+I just got a text from her.,S
+A browser ignores any indentations or blank lines in the source text.,S
+Language textbooks often feature only good people.,S
+"It's very easy to learn the Cyrillic alphabet, but reading fluently texts written in Cyrillic characters is quite difficult for those who are just starting to learn Russian.",S
+The Japanese fishing fleet catches more than 1000 whales per year on the pretext of scientific research.,S
+I forgot to buy the textbook.,C
+Tom thinks he left his French textbook at Mary's.,C
+I sent Tom a text message.,C
+"I want you to put down the magazines, the textbooks and everything else.",S
+I left my textbooks somewhere.,S
+You can always text her.,C
+"No context, no text.",S
+He delayed payment on some pretext or other.,C
+Tom texted Mary.,C
+Tom asked Mary if he could borrow her English textbook.,C
+With text we mean any communicative situation of significant length.,S
+The original was written as a school textbook.,S
+Are you texting Mary?,C
+I don't know where my French textbook is.,C
