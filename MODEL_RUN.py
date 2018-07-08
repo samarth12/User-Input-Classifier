@@ -1,10 +1,14 @@
 import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn import svm
 import features
+from sklearn import metrics
+import sys
 #clf = RandomForestClassifier(n_jobs=2, n_estimators = 100)
 
-user_input = "Is the earth flat"
+user_input = str(sys.argv)
 
 def classify_sentence(clf,user_input):
     keys = ["id",
@@ -43,7 +47,7 @@ def classify_sentence(clf,user_input):
     print(predict[0].strip())
 
 def classify_model():
-    FNAME = '/Users/samarth/User Input Classifier/data/features_extracted.csv'
+    FNAME = '/analysis/featuresDump.csv'
     df = pd.read_csv(filepath_or_buffer = FNAME, )
     df.columns = df.columns[:].str.strip()
     df['class'] = df['class'].map(lambda x: x.strip())
@@ -59,7 +63,18 @@ def classify_model():
     preds = final.predict(test[features])
     predout = pd.DataFrame({ 'id' : test['id'], 'predicted' : preds, 'actual' : test['class'] })
     classify_sentence(clf,user_input)
-    #print (predout)
+    dictlist =[]
+
+    for key, value in test['class'].iteritems():
+        temp = [key,value]
+        dictlist.append(temp)
+    true_class = [ row[1] for row in dictlist]
+    p = metrics.precision_score(true_class, preds, average='macro')
+    r = metrics.recall_score(true_class, preds, average='micro')
+    f1 = metrics.fbeta_score(true_class, preds, average='macro', beta=0.5)
+    print(p)
+    print(r)
+    print(f1)
     return clf
 
 classify_model()
