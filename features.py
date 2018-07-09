@@ -15,7 +15,7 @@ import re
 import string
 import itertools
 
-line = ["xxx","Hello my name is Samarth Bhandari, how are you?",0,"S"]
+line = ["xxx","Oracle 12.2 will be released for on-premises users on 15 March 2017",0,"S"]
 
 pos = []
 
@@ -281,7 +281,7 @@ def get_string(id,sentence,c="X"):
     for i in range(0,len(l)):
         header = header + "startTuple" + str(i+1) + ","
 
-    l = exists_endTuple(endTuple)
+    l = exists_endTuple(endTuple)  
     output = output + "," + ",".join(str(i) for i in l)
     for i in range(0,len(l)):
         header = header + "endTuple" + str(i+1) + ","

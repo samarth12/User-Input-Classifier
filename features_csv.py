@@ -6,14 +6,14 @@ import features
 if len(sys.argv) > 1:
     FNAME = sys.argv[1]
 else:
-    FNAME = './data/training_data.csv'
+    FNAME = './analysis/sentences.csv'
 print("reading input from ", FNAME)
 
 
 if len(sys.argv) > 2:
     FOUT = sys.argv[2]
 else:
-    FOUT = './data/features_extracted.csv'
+    FOUT = './analysis/featuresDump.csv'
 print("Writing output to ", FOUT)
 
 fin = open(FNAME, 'rt')
