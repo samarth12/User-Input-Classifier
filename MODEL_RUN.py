@@ -40,15 +40,40 @@ def classify_sentence(clf,user_input):
     s = pd.Series(values)
     width = len(s)
     myFeatures = s[1:width-1]
+    #print(myFeatures)
     #clf.fit(train[features], train['class'])
     predict = clf.predict([myFeatures])
+    predictions = clf.predict_proba([myFeatures])
+
+    #print("Predictions")
+    #print(predictions)
+    if (predict[0].strip()) =="C":
+        val1 = predictions[0][0]
+        if val1 >= 0.75:
+            print("CHAT!")
+        else:
+            print("You tell me?")
+    elif (predict[0].strip()) == "Q":
+        val2 = predictions[0][2]
+        if val2 >= 0.75:
+            print("QUES!")
+        else:
+            print("You tell me?")
+    else:
+        val3 = predictions[0][3]
+        if val3 >= 0.75:
+            print("STAT!")
+        else:
+            print("You tell me?")
+    #print("Predictions")
+    #print(predictions)
     #predout = pd.DataFrame({ 'id' : '1', 'predicted' : predict, 'actual' : test['class'] })
     #print (predout)
-    print(predict[0].strip())
+    #print(predict[0].strip())
 
 def classify_model():
-    FNAME = '/analysis/featuresDump.csv'
-    df = pd.read_csv(filepath_or_buffer = FNAME, )
+    FNAME = './data/featuresDump.csv'
+    df = pd.read_csv(filepath_or_buffer = FNAME,)
     df.columns = df.columns[:].str.strip()
     df['class'] = df['class'].map(lambda x: x.strip())
     width = df.shape[1]
@@ -72,9 +97,9 @@ def classify_model():
     p = metrics.precision_score(true_class, preds, average='macro')
     r = metrics.recall_score(true_class, preds, average='micro')
     f1 = metrics.fbeta_score(true_class, preds, average='macro', beta=0.5)
-    print(p)
-    print(r)
-    print(f1)
+    #print(p)
+    #print(r)
+    #print(f1)
     return clf
 
 classify_model()
